@@ -6,13 +6,170 @@
         <meta name="description" content="This page contains all the things I am learning how to create as I learn CSS.">
         <title>ilovemarkcuban</title>
         <link rel="stylesheet" href="main.css" type="text/css">
+        <style>
+            body {
+                font-size: 22px;
+                background-color: #008B8B;
+            }
+
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                height: 200px;
+                background-image: url('backgroundimage.jpg');
+                background-size: cover;
+                background-position: center;
+                text-align: left;
+                padding-right: 20px;
+            }
+
+            .heading-box {
+                color: whitesmoke;
+                font-size: 4em;
+                margin: 0;
+            }
+
+            .subheading {
+                font-weight: bold;
+                font-style: italic;
+                color: white;
+                font-size: 1.2em;
+                margin: 10px 0 0 0;
+            }
+
+            .arrow-link {
+                position: absolute;
+                top: 80px;
+                right: 20px;
+                transform: translateY(-50%);
+                background-color: #007bff;
+                color: white;
+                padding: 15px 30px;
+                text-decoration: none;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                font-size: 1em;
+                border-radius: 4px;
+                clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+            }
+
+            .arrow-linker:hover {
+                background-color: #56b3;
+            }
+
+            .definition {
+                color: white;
+            }
+
+            .heading-title {
+                color: black;
+                font-size: 1.2em;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+                margin: 10px, 0;
+            }
+
+            .subtext {
+                color: white;
+                font-size: 1em;
+            }
+
+            .heading-new {
+                height: 50%;
+                color: black;
+                font-size: 1.2em;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+                background-color: #00CED1;
+                margin: 33.6px 0px 0px;
+                padding: 33.6px 0px;
+            }
+
+            .subtext-new {
+                color: white;
+                font-size: 1.2em;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 1em;
+                background-color: #00CED1;
+                margin: 0;
+            }
+
+            .conclusion {
+                color: white;
+                font-size: 1.2em;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 1.2em;
+                font-style: italic;
+                font-weight: bold;
+            }
+
+            .image-row {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .image-row img {
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin: 10px;
+            }
+
+            .container {
+                display: grid;
+                grid-template-columns: 1fr auto 300px;
+                height: 100vh;
+            }
+
+            .divider {
+                width: 2px;
+                background-color: #000;
+            }
+
+            .right-section {
+                padding-left: 20px;
+            }
+
+            .right-section p {
+                margin: 20px 0;
+            }
+
+            .horizontal-divider {
+                width: 100%;
+                height: 2px;
+                background-color: #000;
+                margin-bottom: 100px;
+            }
+
+            .center-image {
+                flex: 1;
+                text-align: center;
+            }
+
+            .content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            .right-aligned-text {
+                text-align: right;
+                margin-left: 20px;
+                width: 60%;
+            }
+
+        </style>
     </head>
 
     <body>
         <header>
-            <h1 class="heading-box"></h1>
+            <h1 class="heading-box">Mark Cuban</h1>
             <p class="subheading">Be obsessed or be average.</p>
-            
         </header>
 
         <div class="content">
@@ -36,6 +193,5 @@
         </div>
 
         <hr>
-
     </body>
 </html>
