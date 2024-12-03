@@ -1,0 +1,155 @@
+body{
+    font-size: 22px;
+    background-color:#008B8B;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 200px;
+    background-image: url(backgroundimage.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.heading-box{
+    color: whitesmoke;
+    font-size: 4em;
+    margin: 0;
+
+}
+
+.subheading{
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    font-size: 1.2em;
+    margin: 10px 0 0 0;
+}
+
+.arrow-link{
+    position: absolute;
+    top:80px;
+    right: 20px;
+    transform: translateY(-50%);
+    background-color:  #007bff;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
+    border-radius: 4px;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 50%, 85% 100%, 0% 100%);
+}
+
+.arrow-linker:hover{
+    background-color: #56b3;
+}
+
+.definition{
+    color: white;
+    }
+
+.heading-title{
+    color: black;
+    font-size:1.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px,0;
+}
+
+.subtext{
+    color: white;
+    font-size: 1em;
+    
+
+}
+
+.heading-new{
+    height:50%;
+    color: black;
+    font-size:1.2em;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:#00CED1;
+    margin: 33.6px 0px 0px;
+    padding: 33.6px 0px;
+    
+}
+
+.subtext-new{
+    
+    color: white;
+    font-size:1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    background-color:#00CED1;
+    margin: 0;
+  
+
+}
+
+
+
+.conclusion{
+    color:white;
+    font-size:1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Adjust alignment as needed */
+    align-items: center; /* Ensures images are vertically centered */
+}
+
+.image-row img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the images circular */
+    object-fit: cover; /* Ensures images cover the circular area */
+    margin: 10px; /* Optional: Adds spacing between the images */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr auto 300px; /* 1fr for the left, auto for the divider, and 300px for the right section */
+    height: 100vh; /* Full viewport height */
+}
+
+
+
+.divider {
+    width: 2px;
+    background-color: #000;
+}
+
+.right-section {
+    padding-left: 20px; /* Adjust padding as needed */
+}
+
+.right-section p {
+    margin: 20px 0; /* Adjust margin between items as needed */
+}
+
+.horizontal-divider {
+    width: 100%;
+    height: 2px;
+    background-color: #000;
+    margin-bottom: 100px; /* Adjust spacing between the horizontal divider and the first item as needed */
+}
+
+/* Center the image */
+.center-image {
+    flex: 1;
+    text-align: center;
+}
